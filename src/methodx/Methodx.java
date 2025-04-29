@@ -32,9 +32,9 @@ public class Methodx {
         System.out.println(mt.luaslingkaran(20));
         
         System.out.print("Masukkan Diameter Bola : ");
-        double diameter = input.nextInt();
+        double diameter = input.nextDouble();
         System.out.print("Masukkan Jari jari Bola : ");
-        double jariJari = input.nextInt();
+        double jariJari = input.nextDouble();
         double volume = (mt.VolumeBola(3, 3));
         System.out.println("Volume bola adalah: " + volume);
 
